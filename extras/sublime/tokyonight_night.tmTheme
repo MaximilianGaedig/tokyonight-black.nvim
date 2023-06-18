@@ -17,7 +17,7 @@
 				<key>activeGuide</key>
 				<string>#363b54</string>
 				<key>background</key>
-				<string>#1a1b26</string>
+				<string>#000000</string>
 				<key>caret</key>
 				<string>#DBC08A</string>
 				<key>findHighlight</key>
@@ -89,7 +89,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ff9e64</string>
+				<string>#ff5e64</string>
 			</dict>
 		</dict>
 		<dict>
@@ -634,7 +634,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ff9e64</string>
+				<string>#ff5e64</string>
 			</dict>
 		</dict>
 		<dict>

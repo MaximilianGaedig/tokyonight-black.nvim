@@ -1,7 +1,7 @@
 module.exports =  {
   plain: {
     color: "#c8d3f5",
-    backgroundColor: "#222436",
+    backgroundColor: "#000000",
   },
   styles: [
     {
@@ -31,7 +31,7 @@ module.exports =  {
     {
       types: ["string", "char", "tag", "selector"],
       style: {
-        color: "#c3e88d",
+        color: "#a7fe7e",
       },
     },
     {
@@ -49,7 +49,7 @@ module.exports =  {
     {
       types: ["constant", "boolean"],
       style: {
-        color: "#ff966c",
+        color: "#ff8000",
       },
     },
     {
@@ -61,7 +61,7 @@ module.exports =  {
     {
       types: ["comment"],
       style: {
-        color: "#636da6",
+        color: "#7a88cf",
         fontStyle: "italic",
       },
     },

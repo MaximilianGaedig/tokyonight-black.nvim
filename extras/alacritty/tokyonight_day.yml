@@ -2,12 +2,12 @@
 colors:
   # Default colors
   primary:
-    background: '0xe1e2e7'
+    background: '0xffffff'
     foreground: '0x3760bf'
 
   # Normal colors
   normal:
-    black:   '0xe9e9ed'
+    black:   '0xffffff'
     red:     '0xf52a65'
     green:   '0x587539'
     yellow:  '0x8c6c3e'
@@ -28,7 +28,7 @@ colors:
     white:   '0x3760bf'
 
   indexed_colors:
-    - { index: 16, color: '0xb15c00' }
+    - { index: 16, color: '0xff3944' }
     - { index: 17, color: '0xc64343' }
     
   

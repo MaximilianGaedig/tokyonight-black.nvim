@@ -1,7 +1,7 @@
 module.exports =  {
   plain: {
     color: "#3760bf",
-    backgroundColor: "#e1e2e7",
+    backgroundColor: "#ffffff",
   },
   styles: [
     {
@@ -49,7 +49,7 @@ module.exports =  {
     {
       types: ["constant", "boolean"],
       style: {
-        color: "#b15c00",
+        color: "#ff3944",
       },
     },
     {

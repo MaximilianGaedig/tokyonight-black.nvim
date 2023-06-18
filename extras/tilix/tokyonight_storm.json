@@ -3,9 +3,9 @@
     "comment": "",
     "use-theme-colors": false,
     "foreground-color": "#c0caf5",
-    "background-color": "#24283b",
+    "background-color": "#000000",
     "palette": [
-        "#1d202f",
+        "#000000",
         "#f7768e",
         "#9ece6a",
         "#e0af68",
