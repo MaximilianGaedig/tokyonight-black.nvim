@@ -5,9 +5,9 @@ local M = {}
 ---@class Palette
 M.default = {
   none = "NONE",
-  bg_dark = "#1f2335",
-  bg = "#24283b",
-  bg_highlight = "#292e42",
+  bg_dark = "#000000",
+  bg = "#000000",
+  bg_highlight = "#000000",
   terminal_black = "#414868",
   fg = "#c0caf5",
   fg_dark = "#a9b1d6",
@@ -43,7 +43,7 @@ M.default = {
 }
 
 M.night = {
-  bg = "#1a1b26",
+  bg = "#000000",
   bg_dark = "#16161e",
 }
 M.day = M.night
@@ -51,9 +51,9 @@ M.day = M.night
 M.moon = function()
   local ret = {
     none = "NONE",
-    bg_dark = "#1e2030", --
-    bg = "#222436", --
-    bg_highlight = "#2f334d", --
+    bg_dark = "#000000", --
+    bg = "#000000", --
+    bg_highlight = "#000000", --
     terminal_black = "#444a73", --
     fg = "#c8d3f5", --
     fg_dark = "#828bb8", --
