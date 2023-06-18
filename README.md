@@ -1,8 +1,10 @@
-# 🏙 Tokyo Night
+# 🏙 Tokyo Night Black
 
 A dark and light Neovim theme written in Lua ported from the Visual Studio Code
 [TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme) theme. Includes
 extra themes for Kitty, Alacritty, iTerm and Fish.
+
+This has been modified to have a black background with nicer colors, use tokyonight-moon
 
 ## Storm
 
