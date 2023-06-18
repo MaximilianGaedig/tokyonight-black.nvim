@@ -1,43 +1,46 @@
-*tokyonight.nvim.txt*       For Neovim >= 0.8.0      Last change: 2023 June 17
+*tokyonight.nvim.txt*       For Neovim >= 0.8.0      Last change: 2023 June 18
 
 ==============================================================================
 Table of Contents                          *tokyonight.nvim-table-of-contents*
 
-1. Tokyo Night                                   |tokyonight.nvim-tokyo-night|
-  - Storm                                  |tokyonight.nvim-tokyo-night-storm|
-  - Night                                  |tokyonight.nvim-tokyo-night-night|
-  - Moon                                    |tokyonight.nvim-tokyo-night-moon|
-  - Day                                      |tokyonight.nvim-tokyo-night-day|
-  - Features                            |tokyonight.nvim-tokyo-night-features|
-  - Requirements                    |tokyonight.nvim-tokyo-night-requirements|
-  - Installation                    |tokyonight.nvim-tokyo-night-installation|
-  - Usage                                  |tokyonight.nvim-tokyo-night-usage|
-  - Configuration                  |tokyonight.nvim-tokyo-night-configuration|
-  - Overriding Colors & Highlight Groups|tokyonight.nvim-tokyo-night-overriding-colors-&-highlight-groups|
-  - Extras                                |tokyonight.nvim-tokyo-night-extras|
-  - Contributing                    |tokyonight.nvim-tokyo-night-contributing|
+1. Tokyo Night Black                       |tokyonight.nvim-tokyo-night-black|
+  - Storm                            |tokyonight.nvim-tokyo-night-black-storm|
+  - Night                            |tokyonight.nvim-tokyo-night-black-night|
+  - Moon                              |tokyonight.nvim-tokyo-night-black-moon|
+  - Day                                |tokyonight.nvim-tokyo-night-black-day|
+  - Features                      |tokyonight.nvim-tokyo-night-black-features|
+  - Requirements              |tokyonight.nvim-tokyo-night-black-requirements|
+  - Installation              |tokyonight.nvim-tokyo-night-black-installation|
+  - Usage                            |tokyonight.nvim-tokyo-night-black-usage|
+  - Configuration            |tokyonight.nvim-tokyo-night-black-configuration|
+  - Overriding Colors & Highlight Groups|tokyonight.nvim-tokyo-night-black-overriding-colors-&-highlight-groups|
+  - Extras                          |tokyonight.nvim-tokyo-night-black-extras|
+  - Contributing              |tokyonight.nvim-tokyo-night-black-contributing|
 
 ==============================================================================
-1. Tokyo Night                                   *tokyonight.nvim-tokyo-night*
+1. Tokyo Night Black                       *tokyonight.nvim-tokyo-night-black*
 
 A dark and light Neovim theme written in Lua ported from the Visual Studio Code
 TokyoNight <https://github.com/enkia/tokyo-night-vscode-theme> theme. Includes
 extra themes for Kitty, Alacritty, iTerm and Fish.
 
-
-STORM                                      *tokyonight.nvim-tokyo-night-storm*
-
-
-NIGHT                                      *tokyonight.nvim-tokyo-night-night*
+This has been modified to have a black background with nicer colors, use
+tokyonight-moon
 
 
-MOON                                        *tokyonight.nvim-tokyo-night-moon*
+STORM                                *tokyonight.nvim-tokyo-night-black-storm*
 
 
-DAY                                          *tokyonight.nvim-tokyo-night-day*
+NIGHT                                *tokyonight.nvim-tokyo-night-black-night*
 
 
-FEATURES                                *tokyonight.nvim-tokyo-night-features*
+MOON                                  *tokyonight.nvim-tokyo-night-black-moon*
+
+
+DAY                                    *tokyonight.nvim-tokyo-night-black-day*
+
+
+FEATURES                          *tokyonight.nvim-tokyo-night-black-features*
 
 - supports the latest Neovim 0.9.0 features
 - terminal colors
@@ -69,12 +72,12 @@ EXTRAS ~
 - Zathura <https://pwmt.org/projects/zathura/> (zathura <extras/zathura>)
 
 
-REQUIREMENTS                        *tokyonight.nvim-tokyo-night-requirements*
+REQUIREMENTS                  *tokyonight.nvim-tokyo-night-black-requirements*
 
 - Neovim >= 0.6.0
 
 
-INSTALLATION                        *tokyonight.nvim-tokyo-night-installation*
+INSTALLATION                  *tokyonight.nvim-tokyo-night-black-installation*
 
 Install the theme with your preferred package manager:
 
@@ -90,7 +93,7 @@ folke/lazy.nvim <https://github.com/folke/lazy.nvim>
 <
 
 
-USAGE                                      *tokyonight.nvim-tokyo-night-usage*
+USAGE                                *tokyonight.nvim-tokyo-night-black-usage*
 
 Enable the colorscheme:
 
@@ -141,7 +144,7 @@ To enable the `tokyonight` colorscheme for `Lightline`
 <
 
 
-CONFIGURATION                      *tokyonight.nvim-tokyo-night-configuration*
+CONFIGURATION                *tokyonight.nvim-tokyo-night-black-configuration*
 
 
   configuration needs to be set **BEFORE** loading the color scheme with
@@ -195,7 +198,7 @@ TokyoNight will use the default options, unless you call `setup`.
 <
 
 
-OVERRIDING COLORS & HIGHLIGHT GROUPS*tokyonight.nvim-tokyo-night-overriding-colors-&-highlight-groups*
+OVERRIDING COLORS & HIGHLIGHT GROUPS*tokyonight.nvim-tokyo-night-black-overriding-colors-&-highlight-groups*
 
 How the highlight groups are calculated:
 
@@ -279,7 +282,7 @@ config file:
 <
 
 
-EXTRAS                                    *tokyonight.nvim-tokyo-night-extras*
+EXTRAS                              *tokyonight.nvim-tokyo-night-black-extras*
 
 Extra color configs for **Kitty**, **Alacritty**, **Fish**, **WezTerm**,
 **iTerm** and **foot** can be found in extras <extras/>. To use them, refer to
@@ -297,7 +300,7 @@ config:
 <
 
 
-CONTRIBUTING                        *tokyonight.nvim-tokyo-night-contributing*
+CONTRIBUTING                  *tokyonight.nvim-tokyo-night-black-contributing*
 
 Pull requests are welcome. For the `extras`, we use a simple template system
 that can be used to generate themes for the different styles.
