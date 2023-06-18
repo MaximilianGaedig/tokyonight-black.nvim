@@ -72,25 +72,20 @@ M.moon = function()
     purple = "#fca7ea", --
     magenta2 = "#ff007c",
     magenta = "#c099ff", --
-    orange = "#ff966c", --
+    orange = "#ff8000", --
     yellow = "#ffc777", --
-    green = "#c3e88d", --
+    green = "#a7fe7e", --
     green1 = "#4fd6be", --
     green2 = "#41a6b5",
     teal = "#4fd6be", --
     red = "#ff757f", --
     red1 = "#c53b53", --
   }
-  ret.comment = util.blend(ret.comment, ret.bg, "bb")
-  ret.git = {
-    change = util.blend(ret.blue, ret.bg, "ee"),
-    add = util.blend(ret.green, ret.bg, "ee"),
-    delete = util.blend(ret.red, ret.bg, "dd"),
-  }
+  ret.git = { change = "#9090ff", add = "#44ffab", delete = "#ff4c54" }
   ret.gitSigns = {
-    change = util.blend(ret.blue, ret.bg, "66"),
-    add = util.blend(ret.green, ret.bg, "66"),
-    delete = util.blend(ret.red, ret.bg, "aa"),
+    change = "#9090ff",
+    add = "#44ffab",
+    delete = "#ff4c54",
   }
   return ret
 end
