@@ -1,14 +1,14 @@
     # TokyoNight Color Palette
-    set -l foreground 3760bf
-    set -l selection ced5ef
-    set -l comment 848cb5
-    set -l red f52a65
-    set -l orange ff3944
-    set -l yellow 8c6c3e
-    set -l green 587539
-    set -l purple 7847bd
-    set -l cyan 007197
-    set -l pink 9854f1
+    set -l foreground 365fa6
+    set -l selection c2caf1
+    set -l comment 4b5dab
+    set -l red ff053b
+    set -l orange c86300
+    set -l yellow 815b00
+    set -l green 2f5f0d
+    set -l purple be19a7
+    set -l cyan 18687a
+    set -l pink 9f46ff
 
     # Syntax Highlighting Colors
     set -g fish_color_normal $foreground

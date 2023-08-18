@@ -1,12 +1,12 @@
 local colors = {
   bg = "#000000",
-  bg_dark = "#000000",
-  bg_float = "#000000",
+  bg_dark = "#121220",
+  bg_float = "#121220",
   bg_highlight = "#000000",
-  bg_popup = "#000000",
+  bg_popup = "#121220",
   bg_search = "#3e68d7",
-  bg_sidebar = "#000000",
-  bg_statusline = "#000000",
+  bg_sidebar = "#121220",
+  bg_statusline = "#121220",
   bg_visual = "#192a56",
   black = "#000000",
   blue = "#82aaff",
@@ -395,7 +395,7 @@ local highlights = {
     fg = "#9090ff"
   },
   BufferOffset = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "#737aa2"
   },
   BufferTabpageFill = {
@@ -403,54 +403,54 @@ local highlights = {
     fg = "#737aa2"
   },
   BufferTabpages = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "NONE"
   },
   BufferVisible = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "#c8d3f5"
   },
   BufferVisibleERROR = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "#c53b53"
   },
   BufferVisibleHINT = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "#4fd6be"
   },
   BufferVisibleINFO = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "#0db9d7"
   },
   BufferVisibleIndex = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "#0db9d7"
   },
   BufferVisibleMod = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "#ffc777"
   },
   BufferVisibleSign = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "#0db9d7"
   },
   BufferVisibleTarget = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "#ff757f"
   },
   BufferVisibleWARN = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "#ffc777"
   },
   Character = {
     fg = "#a7fe7e"
   },
   CmpDocumentation = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "#c8d3f5"
   },
   CmpDocumentationBorder = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "#5196cc"
   },
   CmpGhostText = {
@@ -710,11 +710,11 @@ local highlights = {
     fg = "#82aaff"
   },
   FloatBorder = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "#5196cc"
   },
   FloatTitle = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "#5196cc"
   },
   FoldColumn = {
@@ -909,10 +909,10 @@ local highlights = {
     fg = "#5196cc"
   },
   LspFloatWinNormal = {
-    bg = "#000000"
+    bg = "#121220"
   },
   LspInfoBorder = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "#5196cc"
   },
   LspReferenceRead = {
@@ -1029,7 +1029,7 @@ local highlights = {
     fg = "#828bb8"
   },
   MiniStatuslineInactive = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "#82aaff"
   },
   MiniStatuslineModeCommand = {
@@ -1074,7 +1074,7 @@ local highlights = {
     bg = "#000000"
   },
   MiniTablineHidden = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "#737aa2"
   },
   MiniTablineModifiedCurrent = {
@@ -1082,19 +1082,19 @@ local highlights = {
     fg = "#ffc777"
   },
   MiniTablineModifiedHidden = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "#b38b53"
   },
   MiniTablineModifiedVisible = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "#ffc777"
   },
   MiniTablineTabpagesection = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "NONE"
   },
   MiniTablineVisible = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "#c8d3f5"
   },
   MiniTestEmphasis = {
@@ -1241,11 +1241,11 @@ local highlights = {
     fg = "#3b4261"
   },
   NeoTreeNormal = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "#828bb8"
   },
   NeoTreeNormalNC = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "#828bb8"
   },
   NeogitBranch = {
@@ -1419,7 +1419,7 @@ local highlights = {
     fg = "#c8d3f5"
   },
   NormalFloat = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "#c8d3f5"
   },
   NormalNC = {
@@ -1427,7 +1427,7 @@ local highlights = {
     fg = "#c8d3f5"
   },
   NormalSB = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "#828bb8"
   },
   NotifyDEBUGBody = {
@@ -1520,11 +1520,11 @@ local highlights = {
     fg = "#3b4261"
   },
   NvimTreeNormal = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "#828bb8"
   },
   NvimTreeNormalNC = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "#828bb8"
   },
   NvimTreeOpenedFile = {
@@ -1542,18 +1542,18 @@ local highlights = {
     fg = "#82aaff"
   },
   NvimTreeWinSeparator = {
-    bg = "#000000",
-    fg = "#000000"
+    bg = "#121220",
+    fg = "#121220"
   },
   Operator = {
     fg = "#89ddff"
   },
   Pmenu = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "#c8d3f5"
   },
   PmenuSbar = {
-    bg = "#0d0d0d"
+    bg = "#1e1e2b"
   },
   PmenuSel = {
     bg = "#2f354e"
@@ -1638,7 +1638,7 @@ local highlights = {
     fg = "#3b4261"
   },
   SignColumnSB = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "#3b4261"
   },
   Sneak = {
@@ -1674,11 +1674,11 @@ local highlights = {
     fg = "#c099ff"
   },
   StatusLine = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "#828bb8"
   },
   StatusLineNC = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "#3b4261"
   },
   String = {
@@ -1717,7 +1717,7 @@ local highlights = {
     fg = "#ffc777"
   },
   TabLine = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "#3b4261"
   },
   TabLineFill = {
@@ -1731,11 +1731,11 @@ local highlights = {
     fg = "#86e1fc"
   },
   TelescopeBorder = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "#5196cc"
   },
   TelescopeNormal = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "#c8d3f5"
   },
   Title = {
@@ -1754,7 +1754,7 @@ local highlights = {
     fg = "#c099ff"
   },
   TroubleNormal = {
-    bg = "#000000",
+    bg = "#121220",
     fg = "#828bb8"
   },
   TroubleText = {
@@ -1785,7 +1785,7 @@ local highlights = {
     fg = "#c099ff"
   },
   WhichKeyFloat = {
-    bg = "#000000"
+    bg = "#121220"
   },
   WhichKeyGroup = {
     fg = "#82aaff"
@@ -1820,7 +1820,7 @@ local highlights = {
     fg = "#0db9d7"
   },
   debugPC = {
-    bg = "#000000"
+    bg = "#121220"
   },
   diffAdded = {
     fg = "#44ffab"

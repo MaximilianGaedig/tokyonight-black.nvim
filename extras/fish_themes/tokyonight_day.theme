@@ -1,25 +1,25 @@
     # TokyoNight
 
     # Syntax Highlighting Colors
-    fish_color_normal 3760bf
-    fish_color_command 007197
-    fish_color_keyword 9854f1
-    fish_color_quote 8c6c3e
-    fish_color_redirection 3760bf
-    fish_color_end ff3944
-    fish_color_error f52a65
-    fish_color_param 7847bd
-    fish_color_comment 848cb5
-    fish_color_selection --background=ced5ef
-    fish_color_search_match --background=ced5ef
-    fish_color_operator 587539
-    fish_color_escape 9854f1
-    fish_color_autosuggestion 848cb5
+    fish_color_normal 365fa6
+    fish_color_command 18687a
+    fish_color_keyword 9f46ff
+    fish_color_quote 815b00
+    fish_color_redirection 365fa6
+    fish_color_end c86300
+    fish_color_error ff053b
+    fish_color_param be19a7
+    fish_color_comment 4b5dab
+    fish_color_selection --background=c2caf1
+    fish_color_search_match --background=c2caf1
+    fish_color_operator 2f5f0d
+    fish_color_escape 9f46ff
+    fish_color_autosuggestion 4b5dab
 
     # Completion Pager Colors
-    fish_pager_color_progress 848cb5
-    fish_pager_color_prefix 007197
-    fish_pager_color_completion 3760bf
-    fish_pager_color_description 848cb5
-    fish_pager_color_selected_background --background=ced5ef
+    fish_pager_color_progress 4b5dab
+    fish_pager_color_prefix 18687a
+    fish_pager_color_completion 365fa6
+    fish_pager_color_description 4b5dab
+    fish_pager_color_selected_background --background=c2caf1
   
