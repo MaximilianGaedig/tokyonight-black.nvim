@@ -5,9 +5,9 @@ local M = {}
 ---@class Palette
 M.default = {
   none = "NONE",
-  bg_dark = "#000000",
+  bg_dark = "#a0a0a0",
   bg = "#000000",
-  bg_highlight = "#000000",
+  bg_highlight = "#303030",
   terminal_black = "#414868",
   fg = "#c0caf5",
   fg_dark = "#a9b1d6",
@@ -44,14 +44,14 @@ M.default = {
 
 M.night = {
   bg = "#000000",
-  bg_dark = "#16161e",
+  bg_dark = "#505050",
+  -- bg_dark = "#16161e",
 }
-M.day = M.night
 
 M.moon = function()
   local ret = {
     none = "NONE",
-    bg_dark = "#000000", --
+    bg_dark = "#121220", --
     bg = "#000000", --
     bg_highlight = "#000000", --
     terminal_black = "#444a73", --
@@ -89,6 +89,8 @@ M.moon = function()
   }
   return ret
 end
+
+M.day = M.moon
 
 ---@return ColorScheme
 function M.setup(opts)
